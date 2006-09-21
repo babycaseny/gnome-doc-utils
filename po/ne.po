@@ -482,7 +482,7 @@ msgstr ""
 #.
 #: ../xslt/gettext/l10n.xml.in.h:392
 msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<node/>’.</msgstr>"
-msgstr "<msgid>email.tooltip</msgid> लाई इमेल पठाउनुहोस् <msgstr><node/>’.</msgstr>"
+msgstr "<msgid>email.tooltip</msgid>लाई इमेल पठाउनुहोस् <msgstr><node/>’.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -892,7 +892,7 @@ msgstr ""
 #.
 #: ../xslt/gettext/l10n.xml.in.h:744
 msgid "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
-msgstr "<msgid>glosssee.format</msgid> <msgstr>हर्नुहोस् <glosssee/>.</msgstr>"
+msgstr "<msgid>glosssee.format</msgid> <msgstr>हेर्नुहोस् <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -930,7 +930,7 @@ msgstr "<msgid>glosssee.format</msgid> <msgstr>हर्नुहोस् <glos
 #.
 #: ../xslt/gettext/l10n.xml.in.h:779
 msgid "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
-msgstr "<msgid>glossseealso.format</msgid> <msgstr>पनि हर्नुहोस् <glosssee/>.</msgstr>"
+msgstr "<msgid>glossseealso.format</msgid> <msgstr>पनि हेर्नुहोस् <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1713,7 +1713,7 @@ msgstr "A:&#x2003;"
 #. Used for links to the titlepage.
 #: ../xslt/gettext/l10n.xml.in.h:1431
 msgid "About This Document"
-msgstr "यो कागजातको वारेमा"
+msgstr "यो कागजातका बारेमा"
 
 #.
 #. http://www.docbook.org/tdg/en/html/affiliation.html
@@ -1776,7 +1776,7 @@ msgstr "इमेल"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1473
 msgid "Glossary"
-msgstr "शब्द संग्रह"
+msgstr "शब्द सङ्ग्रह"
 
 #.
 #. http://www.docbook.org/tdg/en/html/important.html
