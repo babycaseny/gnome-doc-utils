@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils 0.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-25 22:23+0100\n"
-"PO-Revision-Date: 2006-03-27 09:01+0300\n"
+"PO-Revision-Date: 2006-10-26 23:37+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -465,21 +465,22 @@ msgstr ""
 #. Special elements in the message will be replaced with the
 #. appropriate content, as follows:
 #.
-#. node - The contents of the email element, which should be the
-#. linked-to email address
+#. string - The linked-to email address
 #.
 #. These should be written as empty XML elements.  Due to limitations
 #. in intltool, I can't write XML content in translator comments.  To
-#. insert the node, simply write left angle bracket, node, slash,
-#. right angle bracket.
+#. insert the email address, simply write left angle bracket, string,
+#. slash, right angle bracket.
 #.
 #. Additionally, format messages can use the i, b, and tt markup tags
 #. to mark text as italic, bold, and monospace.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:392
-msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<node/>’.</msgstr>"
+#: ../xslt/gettext/l10n.xml.in.h:391
+msgid ""
+"<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
 msgstr ""
-"<msgid>email.tooltip</msgid> <msgstr>E-kirja saatmine aadressile ‘<node/>’.</msgstr>"
+"<msgid>email.tooltip</msgid> <msgstr>E-kirja saatmine aadressile „<string/>”."
+"</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
