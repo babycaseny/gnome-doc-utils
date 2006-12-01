@@ -1,19 +1,22 @@
-# translation of gnome-doc-utils.HEAD.po to arabic
+# translation of gnome-doc-utils.gnome-2-16.ar.po to Arabic
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER, 2005.
-# Djihed Afifi <djihed@gmail.com>, 2006.
 #
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-doc-utils.HEAD\n"
+"Project-Id-Version: gnome-doc-utils.gnome-2-16.ar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-07-18 17:29+0200\n"
-"PO-Revision-Date: 2006-10-05 21:07-0000\n"
-"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
-"Language-Team:  <en@li.org>\n"
+"PO-Revision-Date: 2006-11-24 18:31+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <support@arabeyes.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : 3\n"
 
 #.
 #. This is used a simple list item seperator in places where simple
@@ -23,7 +26,7 @@ msgstr ""
 #.
 #: ../xslt/gettext/l10n.xml.in.h:7
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #.
 #. The number formatter used for appendix numbers.  This can be one of
@@ -149,7 +152,7 @@ msgstr "<msgid>appendix.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:121
 msgid "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
-msgstr "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
+msgstr "<msgid>appendix.xref</msgid> <msgstr>ملحق <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -176,7 +179,7 @@ msgstr "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></ms
 #.
 #: ../xslt/gettext/l10n.xml.in.h:145
 msgid "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry <label/>.</msgstr>"
-msgstr "<msgid>biblioentry.tooltip</msgid> <msgstr>انظر أيضا إلى المرجع <label/>.</msgstr>"
+msgstr "<msgid>biblioentry.tooltip</msgid> <msgstr>اعرض عنصر المَراجِع <label/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -390,7 +393,7 @@ msgstr "<msgid>chapter.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:338
 msgid "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
-msgstr "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
+msgstr "<msgid>chapter.xref</msgid> <msgstr>فصل <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -504,7 +507,7 @@ msgstr "<msgid>example.digit</msgid> <msgstr>1</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:440
 msgid "<msgid>example.label</msgid> <msgstr role='header'><i>Example <number/></i>&#x2003;</msgstr> <msgstr role='li'>Example <number/>&#x2002;</msgstr> <msgstr>Example <number/></msgstr>"
-msgstr "<msgid>example.label</msgid> <msgstr role='header'><i>Example <number/></i>&#x2003;</msgstr> <msgstr role='li'>Example <number/>&#x2002;</msgstr> <msgstr>Example <number/></msgstr>"
+msgstr "<msgid>example.label</msgid> <msgstr role='header'><i>مثال <number/></i>&#x2003;</msgstr> <msgstr role='li'>مثال <number/>&#x2002;</msgstr> <msgstr>مثال <number/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -575,7 +578,7 @@ msgstr "<msgid>example.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:505
 msgid "<msgid>example.xref</msgid> <msgstr>Example <number/></msgstr>"
-msgstr "<msgid>example.xref</msgid> <msgstr>Example <number/></msgstr>"
+msgstr "<msgid>example.xref</msgid> <msgstr>مثال <number/></msgstr>"
 
 #.
 #. The number formatter used for figure numbers.  This can be one of
@@ -630,7 +633,7 @@ msgstr "<msgid>figure.digit</msgid> <msgstr>1</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:554
 msgid "<msgid>figure.label</msgid> <msgstr role='header'><i>Figure <number/></i>&#x2003;</msgstr> <msgstr role='li'>Figure <number/>&#x2002;</msgstr> <msgstr>Figure <number/></msgstr>"
-msgstr "<msgid>figure.label</msgid> <msgstr role='header'><i>Figure <number/></i>&#x2003;</msgstr> <msgstr role='li'>Figure <number/>&#x2002;</msgstr> <msgstr>شكل <number/></msgstr>"
+msgstr "<msgid>figure.label</msgid> <msgstr role='header'><i>Figure <number/></i>&#x2003;</msgstr> <msgstr role='li'>شكل <number/>&#x2002;</msgstr> <msgstr>شكل <number/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -701,7 +704,7 @@ msgstr "<msgid>figure.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:619
 msgid "<msgid>figure.xref</msgid> <msgstr>Figure <number/></msgstr>"
-msgstr "<msgid>figure.xref</msgid> <msgstr>Figure <number/></msgstr>"
+msgstr "<msgid>figure.xref</msgid> <msgstr>شكل <number/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -837,7 +840,7 @@ msgstr "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msg
 #.
 #: ../xslt/gettext/l10n.xml.in.h:743
 msgid "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
-msgstr "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
+msgstr "<msgid>glosssee.format</msgid> <msgstr>انظر <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -875,7 +878,7 @@ msgstr "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:778
 msgid "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
-msgstr "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
+msgstr "<msgid>glossseealso.format</msgid> <msgstr>انظر أيضا <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -962,7 +965,7 @@ msgstr "<msgid>part.digit</msgid> <msgstr>I</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:856
 msgid "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Part <number/></msgstr>"
-msgstr "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Part <number/></msgstr>"
+msgstr "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>جزء <number/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -997,7 +1000,7 @@ msgstr "<msgid>part.label</msgid> <msgstr role='header'><number/>.&#x2003;</msgs
 #.
 #: ../xslt/gettext/l10n.xml.in.h:888
 msgid "<msgid>part.xref</msgid> <msgstr>Part <number/> ― <title/></msgstr>"
-msgstr "<msgid>part.xref</msgid> <msgstr>Part <number/> ― <title/></msgstr>"
+msgstr "<msgid>part.xref</msgid> <msgstr>جزء <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1117,7 +1120,7 @@ msgstr "<msgid>question.label</msgid> <msgstr role='header'><number/>.&#x2003;</
 #.
 #: ../xslt/gettext/l10n.xml.in.h:996
 msgid "<msgid>question.xref</msgid> <msgstr>Question <number/></msgstr>"
-msgstr "<msgid>question.xref</msgid> <msgstr>Question <number/></msgstr>"
+msgstr "<msgid>question.xref</msgid> <msgstr>سؤال <number/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1314,7 +1317,7 @@ msgstr "<msgid>refsection.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1175
 msgid "<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr "<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr "<msgid>refsection.xref</msgid> <msgstr>باب <number/> ― <title/></msgstr>"
 
 #.
 #. The number formatter used for section numbers.  This can be one of
@@ -1441,7 +1444,7 @@ msgstr "<msgid>section.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1290
 msgid "<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr "<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr "<msgid>section.xref</msgid> <msgstr>باب <number/> ― <title/></msgstr>"
 
 #.
 #. The number formatter used for table numbers.  This can be one of
@@ -1567,7 +1570,7 @@ msgstr "<msgid>table.number</msgid> <msgstr><parent/>-<digit/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1404
 msgid "<msgid>table.xref</msgid> <msgstr>Table <number/></msgstr>"
-msgstr "<msgid>table.xref</msgid> <msgstr>Table <number/></msgstr>"
+msgstr "<msgid>table.xref</msgid> <msgstr>جدول <number/></msgstr>"
 
 #. Used as a header before a list of authors.
 #: ../xslt/gettext/l10n.xml.in.h:1406
@@ -1582,7 +1585,7 @@ msgstr "<msgstr form=\"0\">المتعاون</msgstr> <msgstr form=\"1\">المت
 #. Used as a header before a list of copyrights.
 #: ../xslt/gettext/l10n.xml.in.h:1410
 msgid "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
-msgstr "<msgstr form=\"0\">حقوق النشر</msgstr> <msgstr form=\"1\">حقوق النشر</msgstr>"
+msgstr "<msgstr form=\"0\">حقوق النسخ</msgstr> <msgstr form=\"1\">حقوق النسخ</msgstr>"
 
 #. Used as a header before a list of editors.
 #: ../xslt/gettext/l10n.xml.in.h:1412
@@ -1638,7 +1641,7 @@ msgstr "الإنتساب"
 #. Used as a title for a bibliography.
 #: ../xslt/gettext/l10n.xml.in.h:1442
 msgid "Bibliography"
-msgstr "المراجع"
+msgstr "المَراجِع"
 
 #.
 #. http://www.docbook.org/tdg/en/html/caution.html
@@ -1653,6 +1656,7 @@ msgstr "إنتباه"
 #. This is used as a default title for colophon elements.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1452
+#, fuzzy
 msgid "Colophon"
 msgstr "الورقة الأخيرة المحتوية على معلومات حول الناشر و الكاتب"
 
@@ -1752,7 +1756,7 @@ msgstr "Q:&#x2003;"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1517
 msgid "Revision History"
-msgstr "تاريخ التنقيح"
+msgstr "تاريخ المراجعة"
 
 #.
 #. Used for the <see> element.
@@ -1760,7 +1764,7 @@ msgstr "تاريخ التنقيح"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1522
 msgid "See"
-msgstr "راجع"
+msgstr "انظر"
 
 #.
 #. Used for the <seealso> element.
@@ -1768,7 +1772,7 @@ msgstr "راجع"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1527
 msgid "See Also"
-msgstr "راجع كذلك"
+msgstr "انظر أيضا"
 
 #.
 #. http://www.docbook.org/tdg/en/html/refsynopsisdiv.html
@@ -1803,31 +1807,4 @@ msgstr "تحذير"
 #: ../xslt/gettext/l10n.xml.in.h:1549
 msgid "default:LTR"
 msgstr "default:RTL"
-
-#~ msgid "Audience"
-#~ msgstr "الجمهور"
-#~ msgid "Contents"
-#~ msgstr "المحتويات"
-#~ msgid "Date"
-#~ msgstr "التّاريخ"
-#~ msgid "Level"
-#~ msgstr "المستوى"
-#~ msgid "Message Audience"
-#~ msgstr "جمهور الرّسالة"
-#~ msgid "Message Level"
-#~ msgstr "مستوى الرّسالة"
-#~ msgid "Message Origin"
-#~ msgstr "مصدر الرّسالة"
-#~ msgid "Origin"
-#~ msgstr "المصدر"
-#~ msgid "Reference"
-#~ msgstr "المرجع"
-#~ msgid "Release Information"
-#~ msgstr "معلومات النّشر"
-#~ msgid "Set Index"
-#~ msgstr "تحديد الفهرس"
-#~ msgid "Table of Contents"
-#~ msgstr "جدول المحتويات"
-#~ msgid "Title"
-#~ msgstr "العنوان"
 
