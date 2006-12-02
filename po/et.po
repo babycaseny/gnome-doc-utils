@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-doc-utils 0.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-03-25 22:23+0100\n"
-"PO-Revision-Date: 2006-10-26 23:37+0300\n"
+"PO-Revision-Date: 2006-11-30 23:41+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -87,8 +87,8 @@ msgid ""
 "<number/></msgstr>"
 msgstr ""
 "<msgid>appendix.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
-"msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Lisa "
-"<number/></msgstr>"
+"msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Lisa <number/"
+"></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -191,8 +191,8 @@ msgid ""
 "<msgid>biblioentry.tooltip</msgid> <msgstr>View the bibliography entry "
 "<label/>.</msgstr>"
 msgstr ""
-"<msgid>biblioentry.tooltip</msgid> <msgstr>Vaata bibliograafia kirjet "
-"<label/>.</msgstr>"
+"<msgid>biblioentry.tooltip</msgid> <msgstr>Vaata bibliograafia kirjet <label/"
+">.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -339,8 +339,8 @@ msgid ""
 "msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Chapter "
 "<number/></msgstr>"
 msgstr ""
-"<msgid>chapter.label</msgid> <msgstr role='header'><number/>.&#x2003;"
-"</msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Peatükk "
+"<msgid>chapter.label</msgid> <msgstr role='header'><number/>.&#x2003;</"
+"msgstr> <msgstr role='li'><number/>.&#x2002;</msgstr> <msgstr>Peatükk "
 "<number/></msgstr>"
 
 #.
@@ -539,8 +539,8 @@ msgid ""
 "i>&#x2003;</msgstr> <msgstr role='li'>Example <number/>&#x2002;</msgstr> "
 "<msgstr>Example <number/></msgstr>"
 msgstr ""
-"<msgid>example.label</msgid> <msgstr role='header'><i>Näide <number/></i>"
-"&#x2003;</msgstr> <msgstr role='li'>Näide <number/>&#x2002;</msgstr> "
+"<msgid>example.label</msgid> <msgstr role='header'><i>Näide <number/></"
+"i>&#x2003;</msgstr> <msgstr role='li'>Näide <number/>&#x2002;</msgstr> "
 "<msgstr>Näide <number/></msgstr>"
 
 #.
@@ -885,6 +885,7 @@ msgstr ""
 #: ../xslt/gettext/l10n.xml.in.h:744
 msgid "<msgid>glosssee.format</msgid> <msgstr>See <glosssee/>.</msgstr>"
 msgstr ""
+"<msgid>glosssee.format</msgid> <msgstr>Vaata <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -924,6 +925,7 @@ msgstr ""
 msgid ""
 "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
 msgstr ""
+"<msgid>glossseealso.format</msgid> <msgstr>Vaata ka <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1661,15 +1663,15 @@ msgstr "<msgstr form='0'>Autor</msgstr> <msgstr form='1'>Autorid</msgstr>"
 msgid ""
 "<msgstr form='0'>Collaborator</msgstr> <msgstr form='1'>Collaborators</"
 "msgstr>"
-msgstr "<msgstr form='0'>Kaasautor</msgstr> <msgstr form='1'>Kaasautorid"
-"</msgstr>"
+msgstr ""
+"<msgstr form='0'>Kaasautor</msgstr> <msgstr form='1'>Kaasautorid</msgstr>"
 
 #. Used as a header before a list of copyrights.
 #: ../xslt/gettext/l10n.xml.in.h:1411
 msgid ""
 "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
-msgstr "<msgstr form='0'>Autoriõigus</msgstr> <msgstr form='1'>Autoriõigused"
-"</msgstr>"
+msgstr ""
+"<msgstr form='0'>Autoriõigus</msgstr> <msgstr form='1'>Autoriõigused</msgstr>"
 
 #. Used as a header before a list of editors.
 #: ../xslt/gettext/l10n.xml.in.h:1413
@@ -1898,4 +1900,3 @@ msgstr "Hoiatus"
 #: ../xslt/gettext/l10n.xml.in.h:1550
 msgid "default:LTR"
 msgstr "LTR"
-
