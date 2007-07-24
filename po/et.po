@@ -5,14 +5,14 @@
 # This file is distributed under the same license as the gnome-doc-utils package.
 #
 # Priit Laes <amd@store20.com>, 2005.
-# Ivar Smolin <okul@linux.ee>, 2005, 2006.
+# Ivar Smolin <okul@linux.ee>, 2005-2007.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils 0.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-04-23 03:14+0100\n"
-"PO-Revision-Date: 2006-11-30 23:41+0200\n"
+"PO-Revision-Date: 2007-07-06 08:08+0300\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -781,7 +781,7 @@ msgstr "<msgid>figure.xref</msgid> <msgstr>Joonis <number/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:653
 msgid "<msgid>glossary.xref</msgid> <msgstr><title/></msgstr>"
-msgstr ""
+msgstr "<msgid>glossary.xref</msgid> <msgstr><title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -811,6 +811,8 @@ msgid ""
 "<msgid>glossentry.tooltip</msgid> <msgstr>Read the definition for "
 "‘<glossterm/>’.</msgstr>"
 msgstr ""
+"<msgid>glossentry.tooltip</msgid> <msgstr>Loe „<glossterm/>” kirjeldust.</"
+"msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -848,6 +850,8 @@ msgid ""
 "<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> "
 "<msgstr>‘<glossterm/>’</msgstr>"
 msgstr ""
+"<msgid>glossentry.xref</msgid> <msgstr role='glosssee'><glossterm/></msgstr> "
+"<msgstr>„<glossterm/>”</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1218,6 +1222,8 @@ msgid ""
 "<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> "
 "<msgstr>“<node/>”</msgstr>"
 msgstr ""
+"<msgid>quote.format</msgid> <msgstr role='inner'>‘<node/>’</msgstr> <msgstr>"
+"„<node/>”</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
