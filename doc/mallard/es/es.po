@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2009-12-14 19:53+0000\n"
-"PO-Revision-Date: 2010-02-18 19:18+0100\n"
+"PO-Revision-Date: 2010-03-11 08:37+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -207,6 +207,12 @@ msgid ""
 "Currently, we have two standalone pages without interlinking. We can have "
 "<file>index.page</file> link to <file>planting.page</file>."
 msgstr ""
+"Note que se ha establecido el atributo <code>type</code> a <code>\"guide\"</"
+"code> en <file>index.page</file> y a <code>\"topic\"</code> en "
+"<file>plantando.page</file>. Esto especifica que <file>index.page</file> es "
+"una página de guía, que automáticamente tendrá enlaces a otras páginas. "
+"Actualmente hay dos páginas independientes sin interenlaces. Se puede hacer "
+"que <file>index.page</file> enlace a <file>plantando.page</file>."
 
 #: C/tenminutes.page:88(p)
 msgid "Explain the linking and introduce the next example."
@@ -270,6 +276,11 @@ msgid ""
 "doesn't help the reader to find the information she needs quickly. The needs "
 "of the reader trump all other requirements."
 msgstr ""
+"Los lectores son los últimos árbitros de la calidad de un sistema de "
+"documentación. Los mejores esfuerzos de los escritores y hackers son en vano "
+"si la documentación no ayuda al lector a encontrar rápidamente la "
+"información que necesita. Las necesidades del lector están por encima del "
+"resto de requerimientos."
 
 #: C/principles.page:42(title)
 msgid "Principles for the Writer"
@@ -626,19 +637,19 @@ msgstr "El atributo <code>shade</code>"
 
 #: C/mal_table.page:256(p)
 msgid "Shade alternating rows:"
-msgstr ""
+msgstr "Sombrear filas alternativas:"
 
 #: C/mal_table.page:298(p)
 msgid "Shade alternating columns:"
-msgstr ""
+msgstr "Sombrear columnas alternativas:"
 
 #: C/mal_table.page:340(p)
 msgid "Shade alternating row groups:"
-msgstr ""
+msgstr "Sombrear grupos de filas alternativas:"
 
 #: C/mal_table.page:390(p)
 msgid "Shade alternating column groups:"
-msgstr ""
+msgstr "Sombrear grupos de columnas alternativas:"
 
 #: C/mal_table.page:447(title)
 msgid "Design Notes"
@@ -798,6 +809,9 @@ msgid ""
 "hints. Processing tools should adjust their behavior according to those "
 "style hints they understand."
 msgstr ""
+"El atributo <code>style</code> toma una lista de sugerencias de estilo "
+"separados por espacios. Las herramientas de procesado deberán ajustar su "
+"comportamiento acorde con esas sugerencias de estilo."
 
 #: C/mal_section.page:61(p)
 msgid ""
@@ -805,6 +819,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>section</code> puede tener atributos de espacios de "
+"nombres externos. Para obtener más información acerca de atributos de "
+"espacios de nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_section.page:71(title) C/mal_page.page:134(title)
 #: C/mal_inline_var.page:75(title) C/mal_inline_sys.page:83(title)
@@ -970,6 +987,9 @@ msgid ""
 "Guides also have see also links generated automatically. See <link xref="
 "\"links#seealso\"/> for more information."
 msgstr ""
+"Las páginas de guía también tienen enlaces «Ver también» generados "
+"automáticamente. Para obtener más información consulte la <link xref="
+"\"links#seealso\"/>."
 
 #: C/mal_page.page:100(p)
 msgid ""
@@ -1008,6 +1028,8 @@ msgid ""
 "Topics also have see also links generated automatically. See <link xref="
 "\"links#seealso\"/> for more information."
 msgstr ""
+"Los temas también tienen enlaces «Ver también» generados automáticamente. "
+"Para obtener más información consulte la <link xref=\"links#seealso\"/>."
 
 #: C/mal_page.page:136(p)
 msgid ""
@@ -1108,12 +1130,17 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>var</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_var.page:66(p)
 msgid ""
 "See <link xref=\"mal_inline_cmd\"/> and <link xref=\"mal_inline_code\"/> for "
 "examples using <code>var</code>."
 msgstr ""
+"Consulte la <link xref=\"mal_inline_cmd\"/> y la <link xref=\"mal_inline_code"
+"\"/> para ver ejemplos del uso de <code>var</code>."
 
 #: C/mal_inline_var.page:77(p)
 msgid ""
@@ -1150,6 +1177,8 @@ msgid ""
 "docbook.org/tdg/en/html/replaceable.html\">replaceable</code> element in "
 "DocBook."
 msgstr ""
+"El elemento <code>var</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/replaceable.html\">replaceable</code> en DocBook."
 
 #: C/mal_inline_sys.page:18(desc)
 msgid "Mark up general identifiers found on computer systems."
@@ -1193,6 +1222,8 @@ msgid ""
 "The <code>sys</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>sys</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_sys.page:46(p)
 msgid ""
@@ -1207,6 +1238,8 @@ msgid ""
 "The <code>sys</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>sys</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_sys.page:59(p)
 msgid ""
@@ -1217,7 +1250,7 @@ msgstr ""
 
 #: C/mal_inline_sys.page:71(p)
 msgid "Use <code>sys</code> to mark up a domain name:"
-msgstr ""
+msgstr "Use <code>sys</code> para marcar un nombre de dominio:"
 
 #: C/mal_inline_sys.page:75(p)
 msgid "The Linux kernel is hosted on <sys>git.kernel.org</sys>."
@@ -1247,6 +1280,8 @@ msgid ""
 "A generic inline element that can be used for semantic, localization, and "
 "styling purpose."
 msgstr ""
+"Un elemento genérico en línea que se puede usar para propósitos semánticos, "
+"de localización y de estilo."
 
 #: C/mal_inline_span.page:23(title)
 msgid "Spans"
@@ -1286,6 +1321,8 @@ msgid ""
 "The <code>span</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>span</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_span.page:48(p)
 msgid ""
@@ -1300,6 +1337,8 @@ msgid ""
 "The <code>span</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>span</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_span.page:61(p)
 msgid ""
@@ -1307,6 +1346,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>span</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_span.page:73(p)
 msgid ""
@@ -1320,6 +1362,8 @@ msgid ""
 "This <span version=\"1.0\" translate=\"no\">word</span> should not be "
 "translated."
 msgstr ""
+"Esta <span version=\"1.0\" translate=\"no\">palabra</span> no se debería "
+"traducir"
 
 #: C/mal_inline_span.page:91(p)
 msgid ""
@@ -1327,12 +1371,17 @@ msgid ""
 "Processing tools may have special processing rules for certain style hints "
 "or external-namespace attributes."
 msgstr ""
+"No se necesita un renderizado especial para los elementos <code>span</code>. "
+"Las herramientas de procesado pueden tener reglas de procesado especiales "
+"para ciertos sugerencias o atributos de espacios de nombre externos."
 
 #: C/mal_inline_span.page:101(p)
 msgid ""
 "The <code>span</code> element is similar to the <code href=\"http://www."
 "docbook.org/tdg/en/html/phrase.html\">phrase</code> element in DocBook."
 msgstr ""
+"El elemento <code>span</code> es similar al elemento <code href=\"http://www."
+"docbook.org/tdg/en/html/phrase.html\">phrase</code> en DocBook."
 
 #: C/mal_inline.page:18(desc)
 msgid "Rich semantic elements for marking up inline content."
@@ -1497,6 +1546,8 @@ msgid ""
 "The <code>output</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>output</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_output.page:53(p)
 msgid ""
@@ -1511,10 +1562,12 @@ msgid ""
 "The <code>output</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>output</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_output.page:67(p)
 msgid "Typical values for the <code>style</code> attribute include:"
-msgstr ""
+msgstr "Los valores típicos para el atributo <code>style</code> incluyen:"
 
 #: C/mal_inline_output.page:69(code)
 #, no-wrap
@@ -4101,7 +4154,7 @@ msgstr ""
 
 #: C/mal_external.page:42(title)
 msgid "External Namespace Attributes"
-msgstr ""
+msgstr "Atributos de espacios de nombres externos"
 
 #: C/mal_external.page:46(p)
 msgid ""
@@ -6952,6 +7005,14 @@ msgid ""
 "in context. Thus, it is important that tools always process elements in "
 "context to handle them correctly."
 msgstr ""
+"Es importante marcar que Mallard usa algunos nombres de elementos tanto en "
+"el contexto en bloque como en línea. Los elementos <code xref="
+"\"mal_block_code\">code</code> y <code xref=\"mal_block_media\">media</code> "
+"son dos ejemplos de ello. Ya que Mallard nunca permite que un bloque de "
+"contenido general se mezcle con el contenido general en línea, el ojetivo de "
+"esos elementos no es ambiguo al procesarlos en contexto. Por ello, es "
+"importante que las herramientas siempre procesen los elementos en contexto "
+"para gestionarlos correctamente."
 
 #: C/index.page:17(years)
 msgid "2007"
@@ -7016,6 +7077,8 @@ msgid ""
 "No equivalent in Mallard, as marking the accelerator in the help text is not "
 "considered important."
 msgstr ""
+"No existe equivalente en Mallard ya que marcar el acelerador en el texto de "
+"la ayuda no se considera importante."
 
 #: C/docbook.page:31(code)
 #, no-wrap
@@ -7051,6 +7114,9 @@ msgid ""
 "elements</link> may provide this information for <link xref=\"mal_info_credit"
 "\">credits</link>"
 msgstr ""
+"No existe el equivalente en Mallard. <link xref=\"mal_external\">Elementos "
+"de espacios de nombres externos</link> pueden proporcionar esta información "
+"para <link xref=\"mal_info_credit\">credits</link>."
 
 #: C/docbook.page:51(code)
 #, no-wrap
@@ -7130,7 +7196,7 @@ msgstr "area"
 #: C/docbook.page:385(p) C/docbook.page:613(p) C/docbook.page:677(p)
 #: C/docbook.page:883(p) C/docbook.page:1155(p)
 msgid "Mallard does not support callouts."
-msgstr ""
+msgstr "Mallard no soporta «callout»."
 
 #: C/docbook.page:86(code)
 #, no-wrap
@@ -7175,6 +7241,9 @@ msgid ""
 "elements</link> may provide this information in <code xref=\"mal_info"
 "\">info</code> elements."
 msgstr ""
+"No existe equivalente en Mallard. <link xref=\"mal_external\">Elementos de "
+"espacios de nombres externos</link> pueden proporcionar esta información "
+"para <code xref=\"mal_info\">info</code>."
 
 #: C/docbook.page:110(code)
 #, no-wrap
@@ -7228,6 +7297,9 @@ msgid ""
 "elements</link> may provide this information for <link xref=\"mal_info_credit"
 "\">credits</link>."
 msgstr ""
+"No existe equivalente en Mallard. <link xref=\"mal_external\">Elementos de "
+"espacios de nombres externos</link> pueden proporcionar esta información "
+"para <link xref=\"mal_info_credit\">credits</link>."
 
 #: C/docbook.page:133(code)
 #, no-wrap
@@ -7337,6 +7409,9 @@ msgid ""
 "No equivalent in Mallard. Future versions may add metadata holders for block "
 "elements to record credits and licensing information for external resources."
 msgstr ""
+"No existe equivalente en Mallard. Versiones futuras pueden añadir "
+"manejadores de metadatos para elementos de bloques para guardar los créditos "
+"y la información de la licencia de recursos externos."
 
 #: C/docbook.page:197(code)
 #, no-wrap
@@ -7384,6 +7459,9 @@ msgid ""
 "code> element in a <code xref=\"mal_block_figure\">figure</code> element for "
 "a similar effect."
 msgstr ""
+"No existe equivalente directo en Mallard. Para obtener un resultado similar "
+"use el elemento <code xref=\"mal_block_desc\">desc</code> en un elemento "
+"<code xref=\"mal_block_figure\">figure</code>."
 
 #: C/docbook.page:227(code)
 #, no-wrap
@@ -7462,6 +7540,9 @@ msgid ""
 "\">code</code> element instead, possibly inside a <code xref="
 "\"mal_block_synopsis\">synopsis</code> element."
 msgstr ""
+"No existe un equivalente directo en Mallard. En su lugar use el bloque <code "
+"xref=\"mal_block_code\">code</code>, posiblemente dentro de un elemento "
+"<code xref=\"mal_block_synopsis\">synopsis</code>."
 
 #: C/docbook.page:275(code)
 #, no-wrap
@@ -7617,6 +7698,9 @@ msgid ""
 "\">code</code> element instead, possibly inside a <code xref="
 "\"mal_block_synopsis\">synopsis</code> element."
 msgstr ""
+"No existe el elemento específico en Mallard. En su lugar use el bloque <code "
+"xref=\"mal_block_code\">code</code>, posiblemente dentro de un elemento "
+"<code xref=\"mal_block_synopsis\">synopsis</code>."
 
 #: C/docbook.page:363(code)
 #, no-wrap
@@ -7639,6 +7723,10 @@ msgid ""
 "elements</link> may provide this information in <code xref=\"mal_info"
 "\">info</code> elements or for <link xref=\"mal_info_credit\">credits</link>."
 msgstr ""
+"No existe equivalente en Mallard. <link xref=\"mal_external\">Espacios de "
+"nombres externos</link> pueden proporcionar esta información en elementos "
+"<code xref=\"mal_info\">info</code> o para <link xref=\"mal_info_credit"
+"\">credits</link>."
 
 #: C/docbook.page:379(code)
 #, no-wrap
@@ -7705,6 +7793,10 @@ msgid ""
 "namespace elements</link> may provide this information in <code xref="
 "\"mal_info\">info</code> elements."
 msgstr ""
+"Varía con el uso. Para <link xref=\"mal_info_revision\">revisions</link> use "
+"el atributo <code>date</code>. <link xref=\"mal_external\">Elementos de "
+"espacios de nombres externos</link> pueden proporcionar esta información en "
+"elementos <link xref=\"mal_info_revision\">info</link>."
 
 #: C/docbook.page:419(code)
 #, no-wrap
@@ -7737,6 +7829,9 @@ msgid ""
 "in a <code xref=\"mal_info_credit\">credit</code> element in an "
 "informational context. Inline, use <code xref=\"mal_inline_sys\">sys</code>."
 msgstr ""
+"Varía con el uso. Use el elemento <code xref=\"mal_info_credit\">name</code> "
+"en un elemento <code xref=\"mal_info_credit\">credit</code> dentro de un "
+"contexto informal. En línea, use <code xref=\"mal_inline_sys\">sys</code>."
 
 #: C/docbook.page:443(code)
 #, no-wrap
@@ -8303,7 +8398,7 @@ msgid ""
 "<code xref=\"mal_info_license\">license</code> element."
 msgstr ""
 "No existe una nota legal de propósito general en Mallard. <link xref="
-"\"mal_external\">elementos del espacio de nombres externo</link> puede "
+"\"mal_external\">Elementos de espacios de nombres externos</link> pueden "
 "proporcionar esta información en los elementos <code xref=\"mal_info\">info</"
 "code>. Para la información de la licencia use el elemento <code xref="
 "\"mal_info_license\">license</code>."
@@ -8780,7 +8875,7 @@ msgid ""
 "xref=\"mal_info\">info</code> elements."
 msgstr ""
 "No existe un elemento equivalente en Mallard. Use texto plano en línea. Los "
-"<link xref=\"mal_external\">elementos del espacio de nombres externo</link> "
+"<link xref=\"mal_external\">elementos de espacios de nombres externos</link> "
 "pueden proporcionar información con los elementos <code xref=\"mal_info"
 "\">info</code>."
 
