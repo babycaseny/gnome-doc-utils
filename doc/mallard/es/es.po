@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-doc-utils.mallard.master\n"
 "POT-Creation-Date: 2009-12-14 19:53+0000\n"
-"PO-Revision-Date: 2010-03-11 08:37+0100\n"
+"PO-Revision-Date: 2010-03-15 08:16+0100\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -739,6 +739,10 @@ msgid ""
 "Mallard, sections can take part in <link xref=\"links\">automatic linking</"
 "link> just as pages can."
 msgstr ""
+"Una sección es una parte lógica destacada de una página o de otra sección. "
+"Romper el material en secciones puede ayudar a los lectores a encontrar "
+"información más rápidamente. En Mallard, las secciones pueden participar en "
+"el <link xref=\"links\">enlazado automático</link> al igual que las páginas."
 
 #: C/mal_section.page:42(title) C/mal_page.page:48(title)
 #: C/mal_inline_var.page:44(title) C/mal_inline_sys.page:41(title)
@@ -772,12 +776,18 @@ msgid ""
 "element, any <link xref=\"mal_block\">general block content</link>, and any "
 "number of <code xref=\"mal_section\">section</code> elements."
 msgstr ""
+"El elemento <code>section</code> contiene un elemento opcional <code xref="
+"\"mal_info\">info</code>, un elemento <code xref=\"mal_block_title\">title</"
+"code>, cualquier <link xref=\"mal_block\">bloque de contenido general</link> "
+"y cualquier número de elementos <code xref=\"mal_section\">section</code>."
 
 #: C/mal_section.page:49(p)
 msgid ""
 "The <code>section</code> can occur in <code xref=\"mal_page\">page</code> "
 "elements and other <code>section</code> elements."
 msgstr ""
+"El elemento <code>section</code> puede encontrarse en los elementos <code "
+"xref=\"mal_page\">page</code> y en otros elementos <code>section</code>."
 
 #: C/mal_section.page:52(p)
 msgid ""
@@ -930,18 +940,27 @@ msgid ""
 "element, any <link xref=\"mal_block\">general block content</link>, and any "
 "number of <code xref=\"mal_section\">section</code> elements."
 msgstr ""
+"El elemento <code>page</code> contiene un elemento opcional <code xref="
+"\"mal_info\">info</code>, un elemento <code xref=\"mal_block_title\">title</"
+"code>, cualquier <link xref=\"mal_block\">bloque de contenido general</link> "
+"y cualquier número de elementos <code xref=\"mal_section\">section</code>."
 
 #: C/mal_page.page:55(p)
 msgid ""
 "The <code>page</code> element is the top-level element in any Mallard page "
 "file, and cannot occur in any other elements."
 msgstr ""
+"El elemento <code>page</code> es el elemento de nivel superior en cualquier "
+"archivo de página Mallard, no puede encontrarse en ningún otro elemento."
 
 #: C/mal_page.page:58(p)
 msgid ""
 "The <code>id</code> attribute takes a unique identifier, which should match "
 "the base file name (without extension) of the file containing the page."
 msgstr ""
+"El atributo <code>id</code> toma un identificador único que debería "
+"coincidir con la base del nombre de archivo (sin extensión) del archivo que "
+"contiene la página."
 
 #: C/mal_page.page:62(p)
 msgid ""
@@ -957,6 +976,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>page</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_page.page:81(title)
 msgid "Guide Pages"
@@ -997,6 +1019,9 @@ msgid ""
 "readers understand the topics being presented. Introductory content should "
 "be short and concise."
 msgstr ""
+"Generalmente las páginas de guía contienen algún contenido introductorio "
+"para ayudar a los lectores a entender los temas presentados. El contenido "
+"introductorio debe ser corto y conciso."
 
 #: C/mal_page.page:109(title)
 msgid "Topic Pages"
@@ -1109,6 +1134,8 @@ msgid ""
 "The <code>var</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>var</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_var.page:49(p)
 msgid ""
@@ -1117,12 +1144,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>var</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_var.page:55(p)
 msgid ""
 "The <code>var</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>var</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_var.page:62(p)
 msgid ""
@@ -1232,6 +1266,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>sys</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_sys.page:52(p)
 msgid ""
@@ -1247,6 +1286,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>sys</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_sys.page:71(p)
 msgid "Use <code>sys</code> to mark up a domain name:"
@@ -1331,6 +1373,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>span</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_span.page:54(p)
 msgid ""
@@ -1462,6 +1509,9 @@ msgid ""
 "any inline context. See <link xref=\"#processing\"/> below for more "
 "information."
 msgstr ""
+"Los elementos de Mallard permiten que elementos de espacios de nombres "
+"externos se usen en un contexto en línea. Para obtener más información "
+"consulte la <link xref=\"#processing\"/> inferior."
 
 #: C/mal_inline.page:69(title) C/mal_external.page:79(title)
 msgid "Elements"
@@ -1556,6 +1606,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>output</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_output.page:59(p)
 msgid ""
@@ -1602,6 +1657,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>output</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_output.page:84(p)
 msgid ""
@@ -1613,13 +1671,15 @@ msgstr ""
 
 #: C/mal_inline_output.page:97(p)
 msgid "Use <code>ouptut</code> to mark up text generated by a program:"
-msgstr ""
+msgstr "Use <code>output</code> para marcar texto generado por un programa:"
 
 #: C/mal_inline_output.page:104(p)
 msgid ""
 "The output of <cmd>echo $SHELL</cmd> is <output>/bin/bash</output> if you "
 "use the Bourne-again shell."
 msgstr ""
+"La salida de <cmd>echo $SHELL</cmd> es <output>/bin/bash</output> si usa la "
+"shell Bourne-again."
 
 #: C/mal_inline_output.page:108(p)
 msgid ""
@@ -1685,7 +1745,7 @@ msgstr "@@image: 'figures/mallard.png'; md5=cad876c6dcbc63f3d050754f7e5ee7b1"
 
 #: C/mal_inline_media.page:18(desc) C/mal_block_media.page:18(desc)
 msgid "Insert an image, video, or other multimedia object."
-msgstr ""
+msgstr "Insertar una imagen, vídeo o un objeto multimedia."
 
 #: C/mal_inline_media.page:21(title)
 msgid "Inline Multimedia Objects"
@@ -1736,6 +1796,8 @@ msgid ""
 "The <code>media</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>media</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_media.page:52(p)
 msgid ""
@@ -1744,18 +1806,27 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>media</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_media.page:58(p)
 msgid ""
 "The <code>media</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>media</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_media.page:65(p) C/mal_block_media.page:61(p)
 msgid ""
 "The <code>mime</code> attribute takes a valid MIME type for the object that "
 "is being inserted."
 msgstr ""
+"El atributo <code>mime</code> toma un tipo MIME válido para el objeto que se "
+"está insertando."
 
 #: C/mal_inline_media.page:68(p) C/mal_block_media.page:64(p)
 msgid ""
@@ -1763,21 +1834,27 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>media</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_media.page:72(p)
 msgid ""
 "The <code>media</code> element may also be used in a block context. See "
 "<link xref=\"mal_block_media\"/> for more information."
 msgstr ""
+"El elemento <code>media</code> también se puede usar en un bloque de "
+"contexto. Para obtener más información consulte la <link xref="
+"\"mal_block_media\"/>."
 
 #: C/mal_inline_media.page:83(p) C/mal_block_media.page:79(p)
 msgid "Use <code>media</code> to insert an image into your document:"
-msgstr ""
+msgstr "Use <code>media</code> para introducir una imagen en su documento:"
 
 #: C/mal_inline_media.page:91(media) C/mal_block_media.page:88(p)
 #: C/mal_block_desc.page:82(desc)
 msgid "Drake, the Mallard mascot"
-msgstr ""
+msgstr "Drake, la mascota de Mallard"
 
 #: C/mal_inline_media.page:103(p)
 msgid ""
@@ -1838,11 +1915,11 @@ msgstr ""
 
 #: C/mal_inline_link.page:18(desc)
 msgid "Link to other pages, sections, or web pages."
-msgstr ""
+msgstr "Enlazar otras páginas, secciones o páginas web."
 
 #: C/mal_inline_link.page:21(title) C/mal_info_link.page:11(title)
 msgid "Hyperlinks"
-msgstr ""
+msgstr "Hiperenlaces"
 
 #: C/mal_inline_link.page:23(code)
 #, no-wrap
@@ -1860,6 +1937,18 @@ msgid ""
 "  <link xref=\"mal_inline\">mal_inline</link>\n"
 "}\n"
 msgstr ""
+"\n"
+"mal_inline_link = element link {\n"
+"  ( attribute xref { texto } |\n"
+"    attribute href { texto } |\n"
+"    ( attribute xref { texto }, attribute href { texto } )\n"
+"  ),\n"
+"  attribute role { texto } ?,\n"
+"  attribute style { xsd:NMTOKENS } ?,\n"
+"  attribute * - (mal:* | local:*) { text } *,\n"
+"\n"
+"  <link xref=\"mal_inline\">mal_inline</link>\n"
+"}\n"
 
 #: C/mal_inline_link.page:37(p)
 msgid ""
@@ -1876,11 +1965,15 @@ msgid ""
 "The <code>link</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>link</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_link.page:52(p)
 msgid ""
 "For links within the same document, content can be automatically generated."
 msgstr ""
+"Para enlaces hacia el mismo documento, el contenido se puede generar "
+"automáticamente."
 
 #: C/mal_inline_link.page:55(p)
 msgid ""
@@ -1889,6 +1982,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>link</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_link.page:61(p)
 msgid ""
@@ -1902,12 +2000,17 @@ msgid ""
 "The <code>href</code> attribute creates a link to a web page or other "
 "network-accessible resource."
 msgstr ""
+"El atributo <code>href</code> crea un enlace a una página web u otro recurso "
+"accesible en la red."
 
 #: C/mal_inline_link.page:68(p)
 msgid ""
 "The <code>role</code> attribute can be used to select alternative titles of "
 "the target page or section to be used as automatic content."
 msgstr ""
+"El atributo <code>role</code> se puede usar para seleccionar títulos "
+"alternativos de la página o sección objetivo para usar como contenido "
+"automático."
 
 #: C/mal_inline_link.page:75(p)
 msgid ""
@@ -1915,42 +2018,53 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>link</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_link.page:87(p)
 msgid "Link to another page in the same document:"
-msgstr ""
+msgstr "Enlazar a otra página en el mismo documento:"
 
 #: C/mal_inline_link.page:93(p)
 msgid ""
 "See <link xref=\"mal_attr_link\"/> for information on linking attributes."
 msgstr ""
+"Para información acerca de los atributos de enlazado consulte <link xref="
+"\"mal_attr_link\"/>."
 
 #: C/mal_inline_link.page:96(p)
 msgid "Link to a section in the same page:"
-msgstr ""
+msgstr "Enlazar a una sección en la misma página:"
 
 #: C/mal_inline_link.page:102(p)
 msgid "See <link xref=\"#processing\"/> for details on automatic link text."
 msgstr ""
+"Para detalles acerca del texto de enlace automático consulte <link xref="
+"\"#processing\"/>."
 
 #: C/mal_inline_link.page:105(p)
 msgid "Link to a section in another page:"
-msgstr ""
+msgstr "Enlazar a una sección otra página:"
 
 #: C/mal_inline_link.page:111(p)
 msgid ""
 "See <link xref=\"mal_inline#processing\"/> for more processing expectations."
 msgstr ""
+"Para más opciones de procesado consulte la <link xref=\"mal_inline#processing"
+"\"/>."
 
 #: C/mal_inline_link.page:114(p)
 msgid "Link to an external resource:"
-msgstr ""
+msgstr "Enlazar un recurso externo:"
 
 #: C/mal_inline_link.page:121(p)
 msgid ""
 "See the <link href=\"http://www.w3.org/TR/REC-xml-names/\">XML Namespaces "
 "recommendation</link>."
 msgstr ""
+"Consulte la <link href=\"http://www.w3.org/TR/REC-xml-names/\">recomendación "
+"de espacios de nombres XML</link>."
 
 #: C/mal_inline_link.page:132(p)
 msgid ""
@@ -2004,6 +2118,8 @@ msgid ""
 "Otherwise, the contents of the primary title of that page page or section "
 "are used."
 msgstr ""
+"De otra forma se usará el contenido del título primario de la pagina.page o "
+"sección"
 
 #: C/mal_inline_link.page:171(p)
 msgid ""
@@ -2014,7 +2130,7 @@ msgstr ""
 
 #: C/mal_inline_link.page:175(p)
 msgid "Otherwise, the link target is used as text content."
-msgstr ""
+msgstr "De otra forma se usará como contenido de texto el objetivo del enlace."
 
 #: C/mal_inline_link.page:185(p)
 msgid ""
@@ -2039,15 +2155,15 @@ msgstr ""
 
 #: C/mal_inline_keyseq.page:14(years)
 msgid "&gt;2008-2009"
-msgstr ""
+msgstr "&gt;2008-2009"
 
 #: C/mal_inline_keyseq.page:19(desc)
 msgid "Mark up a key combination or sequence."
-msgstr ""
+msgstr "Marcar una combinación o secuencia de teclas"
 
 #: C/mal_inline_keyseq.page:22(title)
 msgid "Key Sequences"
-msgstr ""
+msgstr "Secuencias de teclas"
 
 #: C/mal_inline_keyseq.page:24(code)
 #, no-wrap
@@ -2086,6 +2202,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>keyseq</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_keyseq.page:61(p)
 msgid ""
@@ -2100,36 +2221,43 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>keyseq</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_keyseq.page:77(p)
 msgid "Use <code>keyseq</code> to mark up a keyboard shortcut:"
-msgstr ""
+msgstr "Use <code>keyseq</code> para marcar un atajo de teclado:"
 
 #: C/mal_inline_keyseq.page:83(p)
 msgid "Press <keyseq><key>Ctrl</key><key>Q</key></keyseq> to quit."
-msgstr ""
+msgstr "Pulse <keyseq><key>Ctrl</key><key>Q</key></keyseq> para salir."
 
 #: C/mal_inline_keyseq.page:86(p)
 msgid "Use <code>keyseq</code> with text for classes of keys:"
-msgstr ""
+msgstr "Use <code>keyseq</code> con un texto para clases de teclas:"
 
 #: C/mal_inline_keyseq.page:93(p)
 msgid ""
 "Press <keyseq><key>Shift</key>arrow keys</keyseq> to make a continuous "
 "selection as you move the keyboard focus."
 msgstr ""
+"Pulse <keyseq><key>Mayús</key>teclas de flechas</keyseq> para realizar una "
+"selección continua al mover el foco del teclado."
 
 #: C/mal_inline_keyseq.page:97(p)
 msgid "Use <code>keyseq</code> with text for mouse actions:"
-msgstr ""
+msgstr "Use <code>keyseq</code> con texto para acciones del ratón:"
 
 #: C/mal_inline_keyseq.page:103(p)
 msgid "<keyseq><key>Shift</key>click</keyseq> to make a continuous selection."
 msgstr ""
+"<keyseq><key>Mayús</key>pulsación del ratón</keyseq> para realizar una "
+"selección continua."
 
 #: C/mal_inline_keyseq.page:106(p)
 msgid "Use nested <code>keyseq</code> elements for complex key commands:"
-msgstr ""
+msgstr "Use elementos <code>keyseq</code> encadenados para comandos complejos:"
 
 #: C/mal_inline_keyseq.page:114(p)
 msgid ""
@@ -2137,6 +2265,9 @@ msgid ""
 "keyseq><keyseq><key>C</key><key>s</key></keyseq></keyseq> to save a file in "
 "<app>Emacs</app>."
 msgstr ""
+"Pulse <keyseq type=\"sequence\"><keyseq><key>C</key><key>x</key></"
+"keyseq><keyseq><key>C</key><key>s</key></keyseq></keyseq> para guardar un "
+"archivo en <app>Emacs</app>."
 
 #: C/mal_inline_keyseq.page:119(p)
 msgid ""
@@ -2151,6 +2282,8 @@ msgid ""
 "There are various ways to modify drag behavior by using "
 "<keyseq><keyseq>modifier</keyseq>drag</keyseq>."
 msgstr ""
+"Existe varias formas de modificar el comportamiento de arrastrado usando "
+"<keyseq>arrastrado<keyseq>modificado</keyseq></keyseq>."
 
 #: C/mal_inline_keyseq.page:140(p)
 msgid ""
@@ -2232,6 +2365,8 @@ msgid ""
 "The <code>key</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>key</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_key.page:58(p)
 msgid ""
@@ -2240,6 +2375,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>jey</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_key.page:64(p)
 msgid ""
@@ -2252,6 +2392,8 @@ msgid ""
 "The <code>key</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>key</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_key.page:75(p)
 msgid ""
@@ -2259,22 +2401,25 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>key</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_key.page:87(p)
 msgid "Use <code>key</code> to mark up a letter key:"
-msgstr ""
+msgstr "Use <code>key</code> para macar la letra de una tecla:"
 
 #: C/mal_inline_key.page:93(p)
 msgid "Press <key>M</key> to mark the selected message as read."
-msgstr ""
+msgstr "Pulse <key>M</key> para marcar el mensaje seleccionado como leído."
 
 #: C/mal_inline_key.page:96(p)
 msgid "Use <code>key</code> to mark up a function key:"
-msgstr ""
+msgstr "Use <code>key</code> para macar una tecla de función:"
 
 #: C/mal_inline_key.page:102(p)
 msgid "Press <key>F9</key> to check for new messages."
-msgstr ""
+msgstr "Pulse <key>F9</key> para comprobar si hay mensajes nuevos."
 
 #: C/mal_inline_key.page:105(p)
 msgid ""
@@ -2284,6 +2429,7 @@ msgstr ""
 #: C/mal_inline_key.page:112(p)
 msgid "Press the <key>Down</key> key to select the next item."
 msgstr ""
+"Pulse la tecla <key>Abajo</key> para seleccionar el siguiente elemento."
 
 #: C/mal_inline_key.page:122(p)
 msgid ""
@@ -2309,7 +2455,7 @@ msgstr ""
 
 #: C/mal_inline_input.page:22(title)
 msgid "User Input"
-msgstr ""
+msgstr "Entrada del usuario"
 
 #: C/mal_inline_input.page:24(code)
 #, no-wrap
@@ -2336,6 +2482,8 @@ msgid ""
 "The <code>input</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>input</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_input.page:46(p)
 msgid ""
@@ -2344,12 +2492,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>input</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_input.page:52(p)
 msgid ""
 "The <code>input</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>input</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_input.page:59(p)
 msgid ""
@@ -2357,6 +2512,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>input</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_input.page:63(p)
 msgid ""
@@ -2372,13 +2530,15 @@ msgstr ""
 
 #: C/mal_inline_input.page:80(p)
 msgid "Type <input>Y</input> at the prompt to proceed."
-msgstr ""
+msgstr "Para proceder pulse <input>S</input> en la pregunta."
 
 #: C/mal_inline_input.page:83(p)
 msgid ""
 "Use <code>input</code> and <code xref=\"mal_inline_output\">output</code> "
 "inside a <code xref=\"mal_block_screen\">screen</code> element:"
 msgstr ""
+"Use <code>input</code> y <code xref=\"mal_inline_input\">output</code> "
+"dentro del elemento <code xref=\"mal_block_screen\">screen</code>:"
 
 #: C/mal_inline_input.page:106(p)
 msgid ""
@@ -2400,7 +2560,7 @@ msgstr ""
 
 #: C/mal_inline_guiseq.page:22(title)
 msgid "GUI Sequences"
-msgstr ""
+msgstr "Secuencias del IGU"
 
 #: C/mal_inline_guiseq.page:24(code)
 #, no-wrap
@@ -2434,6 +2594,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>guiseq</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_guiseq.page:55(p)
 msgid ""
@@ -2441,6 +2606,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>guiseq</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_guiseq.page:67(p)
 msgid "Use <code>guiseq</code> to mark up a sequence of menu items:"
@@ -2485,7 +2653,7 @@ msgstr ""
 
 #: C/mal_inline_gui.page:21(title)
 msgid "GUI Labels"
-msgstr ""
+msgstr "Etiquetas del IGU («gui»)"
 
 #: C/mal_inline_gui.page:23(code)
 #, no-wrap
@@ -2514,6 +2682,8 @@ msgid ""
 "The <code>gui</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>gui</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_gui.page:47(p)
 msgid ""
@@ -2522,6 +2692,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>gui</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_gui.page:53(p)
 msgid ""
@@ -2534,19 +2709,21 @@ msgid ""
 "The <code>gui</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>gui</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_gui.page:64(p)
 msgid "Typical style hints include:"
-msgstr ""
+msgstr "Los estilos típicos de sugerencias incluyen:"
 
 #: C/mal_inline_gui.page:67(code)
 #, no-wrap
 msgid "button"
-msgstr "botón"
+msgstr ""
 
 #: C/mal_inline_gui.page:68(p)
 msgid "The text of a button"
-msgstr ""
+msgstr "El texto de un botón"
 
 #: C/mal_inline_gui.page:71(code)
 #, no-wrap
@@ -2555,7 +2732,7 @@ msgstr ""
 
 #: C/mal_inline_gui.page:72(p)
 msgid "The label for a check box"
-msgstr ""
+msgstr "La etiqueta para una caja de verificación"
 
 #: C/mal_inline_gui.page:75(code) C/docbook.page:616(code)
 #, no-wrap
@@ -2564,7 +2741,7 @@ msgstr "grupo"
 
 #: C/mal_inline_gui.page:76(p)
 msgid "The label for a group of controls"
-msgstr ""
+msgstr "La etiqueta para un grupo de controles"
 
 #: C/mal_inline_gui.page:79(code)
 #, no-wrap
@@ -2617,6 +2794,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>gui</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_gui.page:112(p)
 msgid "Use <code>gui</code> to mark up the text of a button:"
@@ -2705,6 +2885,8 @@ msgid ""
 "The <code>file</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>file</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_file.page:45(p)
 msgid ""
@@ -2713,6 +2895,11 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>file</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_file.page:51(p)
 msgid ""
@@ -2726,6 +2913,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>file</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_file.page:69(p)
 msgid ""
@@ -2744,7 +2934,7 @@ msgstr ""
 
 #: C/mal_inline_em.page:18(desc)
 msgid "Emphasize important text."
-msgstr ""
+msgstr "Enfatizar texto importante."
 
 #: C/mal_inline_em.page:21(title)
 msgid "Emphasis"
@@ -2776,6 +2966,8 @@ msgid ""
 "The <code>em</code> element can contain a mixture of text and any <link xref="
 "\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>em</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_em.page:46(p)
 msgid ""
@@ -2784,12 +2976,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>em</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_em.page:52(p)
 msgid ""
 "The <code>em</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>em</code> puede enlazar a otras páginas o documentos. Para "
+"obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_em.page:59(p)
 msgid ""
@@ -2797,6 +2996,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>em</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_em.page:71(p)
 msgid "Use <code>em</code> to stress a word in a sentence:"
@@ -2894,6 +3096,8 @@ msgid ""
 "The <code>code</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>code</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_code.page:57(p)
 msgid ""
@@ -2902,12 +3106,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>code</code> puede encontrarse en cualquier contexto "
+"general en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_code.page:63(p)
 msgid ""
 "The <code>code</code> element can link to other pages or documents. See "
 "<link xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>code</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_code.page:70(p) C/mal_inline_cmd.page:72(p)
 #: C/mal_block_code.page:60(p)
@@ -2922,12 +3133,18 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>code</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_code.page:77(p)
 msgid ""
 "The <code>code</code> element may also be used in a block context. See <link "
 "xref=\"mal_block_code\"/> for more information."
 msgstr ""
+"El elemento <code>code</code> también se puede usar en un bloque de "
+"contexto. Para obtener más información consulte la <link xref="
+"\"mal_block_media\"/>."
 
 #: C/mal_inline_code.page:88(p)
 msgid ""
@@ -3055,6 +3272,8 @@ msgid ""
 "The <code>cmd</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>cmd</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_cmd.page:59(p)
 msgid ""
@@ -3063,12 +3282,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>cmd</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_cmd.page:65(p)
 msgid ""
 "The <code>cmd</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>cmd</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_cmd.page:76(p) C/mal_block_screen.page:72(p)
 msgid "Typical values for the <code>mime</code> attribute include:"
@@ -3077,20 +3303,20 @@ msgstr ""
 #: C/mal_inline_cmd.page:78(code) C/mal_block_screen.page:74(code)
 #, no-wrap
 msgid "application/x-sh"
-msgstr ""
+msgstr "application/x-sh"
 
 #: C/mal_inline_cmd.page:79(p) C/mal_block_screen.page:75(p)
 msgid "Command to execute with the Bourne shell"
-msgstr ""
+msgstr "Comando para ejecutar en la shell Bourne"
 
 #: C/mal_inline_cmd.page:81(code) C/mal_block_screen.page:77(code)
 #, no-wrap
 msgid "application/x-csh"
-msgstr ""
+msgstr "application/x-csh"
 
 #: C/mal_inline_cmd.page:82(p) C/mal_block_screen.page:78(p)
 msgid "Command to execute with the C shell"
-msgstr ""
+msgstr "Comando para ejecutar en la shell C"
 
 #: C/mal_inline_cmd.page:86(p)
 msgid ""
@@ -3098,6 +3324,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>cmd</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_cmd.page:98(p)
 msgid "Use <code>cmd</code> to mark up a simple command to run:"
@@ -3171,6 +3400,8 @@ msgstr ""
 #: C/mal_inline_cmd.page:172(p)
 msgid "See <link xref=\"principle-justenough\"/> for more background."
 msgstr ""
+"Para obtener más información consulte la <link xref=\"principle-justenough\"/"
+">."
 
 #: C/mal_inline_app.page:19(desc)
 msgid "Mark up the human-readable name of an application or window."
@@ -3178,7 +3409,7 @@ msgstr ""
 
 #: C/mal_inline_app.page:22(title)
 msgid "Application Names"
-msgstr ""
+msgstr "Nombres de aplicaciones"
 
 #: C/mal_inline_app.page:24(code)
 #, no-wrap
@@ -3206,6 +3437,8 @@ msgid ""
 "The <code>app</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>app</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_inline_app.page:47(p)
 msgid ""
@@ -3214,12 +3447,19 @@ msgid ""
 "<link xref=\"mal_block#basic\">basic block elements</link>, and certain "
 "<link xref=\"mal_info\">informational elements</link>."
 msgstr ""
+"El elemento <code>app</code> puede encontrarse en cualquier contexto general "
+"en línea, incluyendo dentro de la mayoría de <link xref=\"mal_inline"
+"\">elementos en línea</link>, algunos <link xref=\"mal_block#basic"
+"\">elementos básicos de bloque</link> y algunos <link xref=\"mal_info"
+"\">elementos informativos</link>."
 
 #: C/mal_inline_app.page:53(p)
 msgid ""
 "The <code>app</code> element can link to other pages or documents. See <link "
 "xref=\"mal_attr_link\"/> for more information."
 msgstr ""
+"El elemento <code>app</code> puede enlazar a otras páginas o documentos. "
+"Para obtener más información consulte la <link xref=\"mal_attr_link\"/>."
 
 #: C/mal_inline_app.page:60(p)
 msgid ""
@@ -3227,14 +3467,17 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>app</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_inline_app.page:72(p)
 msgid "Use <code>app</code> to mark up the name of an application:"
-msgstr ""
+msgstr "Use <code>app</code> para marcar el nombre de una aplicación:"
 
 #: C/mal_inline_app.page:83(p)
 msgid "Use <code>app</code> to refer to a window:"
-msgstr ""
+msgstr "Use <code>app</code> para referirse a una ventana:"
 
 #: C/mal_inline_app.page:90(p)
 msgid ""
@@ -3278,11 +3521,11 @@ msgstr ""
 #: C/mal_info_years.page:18(desc) C/mal_info_name.page:18(desc)
 #: C/mal_info_email.page:18(desc)
 msgid "FIXME"
-msgstr ""
+msgstr "ARREGLAR"
 
 #: C/mal_info_years.page:21(title)
 msgid "Copyright Years"
-msgstr ""
+msgstr "Años del «Copyright»"
 
 #: C/mal_info_years.page:23(code)
 #, no-wrap
@@ -3305,12 +3548,16 @@ msgid ""
 "The <code>years</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>years</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_info_years.page:41(p)
 msgid ""
 "The <code>years</code> element can occur in the <code xref=\"mal_info_credit"
 "\">credit</code> element."
 msgstr ""
+"El elemento <code>years</code> puede encontrarse en el elemento <code xref="
+"\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_years.page:44(p)
 msgid ""
@@ -3318,6 +3565,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>years</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_years.page:56(p) C/mal_info_name.page:56(p)
 #: C/mal_info_email.page:56(p)
@@ -3369,12 +3619,16 @@ msgid ""
 "The <code>title</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>title</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_info_title.page:46(p)
 msgid ""
 "The <code>title</code> element can occur in any <code xref=\"mal_info"
 "\">info</code> element."
 msgstr ""
+"El elemento <code>title</code> puede encontrarse en el elemento <code xref="
+"\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_title.page:49(p)
 msgid ""
@@ -3412,6 +3666,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>title</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_title.page:76(title)
 msgid "Primary Titles"
@@ -3484,7 +3741,7 @@ msgstr ""
 
 #: C/mal_info_revision.page:21(title)
 msgid "Version Information"
-msgstr ""
+msgstr "Información de versión"
 
 #: C/mal_info_revision.page:23(code)
 #, no-wrap
@@ -3537,6 +3794,8 @@ msgid ""
 "The <code>revision</code> element can occur in any <code xref=\"mal_info"
 "\">info</code> element."
 msgstr ""
+"El elemento <code>revision</code> puede encontrarse en el elemento <code "
+"xref=\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_revision.page:64(p)
 msgid ""
@@ -3638,6 +3897,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>revision</code> puede tener atributos de espacios de "
+"nombres externos. Para obtener más información acerca de atributos de "
+"espacios de nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_revision.page:123(p)
 msgid ""
@@ -3723,12 +3985,16 @@ msgid ""
 "The <code>name</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>name</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_info_name.page:41(p)
 msgid ""
 "The <code>name</code> element can occur in the <code xref=\"mal_info_credit"
 "\">credit</code> element."
 msgstr ""
+"El elemento <code>name</code> puede encontrarse en el elemento <code xref="
+"\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_name.page:44(p)
 msgid ""
@@ -3736,6 +4002,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>name</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_name.page:66(p)
 msgid ""
@@ -3799,6 +4068,8 @@ msgid ""
 "The <code>license</code> element can occur in any <code xref=\"mal_info"
 "\">info</code> element."
 msgstr ""
+"El elemento <code>license</code> puede encontrarse en el elemento <code xref="
+"\"mal_info\">credit</code>."
 
 #: C/mal_info_license.page:46(p)
 msgid ""
@@ -3812,6 +4083,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>license</code> puede tener atributos de espacios de "
+"nombres externos. Para obtener más información acerca de atributos de "
+"espacios de nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_license.page:60(p)
 msgid ""
@@ -3868,12 +4142,16 @@ msgid ""
 "The <code>email</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>email</code> puede contener una mezcla de texto y "
+"cualquier <link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_info_email.page:41(p)
 msgid ""
 "The <code>email</code> element can occur in the <code xref=\"mal_info_credit"
 "\">credit</code> element."
 msgstr ""
+"El elemento <code>email</code> puede encontrarse en el elemento <code xref="
+"\"mal_info_credit\">credit</code>."
 
 #: C/mal_info_email.page:44(p)
 msgid ""
@@ -3881,6 +4159,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>email</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_email.page:66(p)
 msgid ""
@@ -3922,12 +4203,16 @@ msgid ""
 "The <code>desc</code> element can contain a mixture of text and any <link "
 "xref=\"mal_inline\">general inline elements</link>."
 msgstr ""
+"El elemento <code>desc</code> puede contener una mezcla de texto y cualquier "
+"<link xref=\"mal_inline\">elemento general en línea</link>."
 
 #: C/mal_info_desc.page:44(p)
 msgid ""
 "The <code>desc</code> element can occur in any <code xref=\"mal_info\">info</"
 "code> element."
 msgstr ""
+"El elemento <code>desc</code> puede encontrarse en el elemento <code xref="
+"\"mal_info\">credit</code>."
 
 #: C/mal_info_desc.page:47(p) C/mal_block_desc.page:56(p)
 msgid ""
@@ -3935,6 +4220,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>desc</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_info_desc.page:51(p)
 msgid ""
@@ -6163,6 +6451,9 @@ msgid ""
 "The <code>desc</code> element can also be used in an informational context. "
 "See <link xref=\"mal_info_desc\"/> for more information."
 msgstr ""
+"El elemento <code>desc</code> también se puede usar en un contexto "
+"informativo. Para obtener más información consulte la <link xref="
+"\"mal_info_desc\"/>."
 
 #: C/mal_block_desc.page:71(p)
 msgid ""
@@ -6227,6 +6518,8 @@ msgid ""
 "which clearly distinguishes it from the normal block content of the "
 "enclosing element."
 msgstr ""
+"Se debería mostrar una descripción de forma que deje el rol claro y que lo "
+"distinga del bloque normal de contenido del elemento adjunto."
 
 #: C/mal_block_comment.page:16(desc)
 msgid "Include an editorial comment that's hidden from normal readers."
@@ -6306,6 +6599,9 @@ msgid ""
 "namespaces. See <link xref=\"mal_external\"/> for more information on "
 "external-namespace attributes."
 msgstr ""
+"El elemento <code>comment</code> puede tener atributos de espacios de "
+"nombres externos. Para obtener más información acerca de atributos de "
+"espacios de nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_comment.page:78(p)
 msgid "Provide a comment:"
@@ -6313,13 +6609,15 @@ msgstr "Proporcione un comentario:"
 
 #: C/mal_block_comment.page:90(title) C/mal_block_comment.page:119(title)
 msgid "Mallards Are Dabbling Ducks"
-msgstr ""
+msgstr "Los ánades reales son patos anatinos"
 
 #: C/mal_block_comment.page:92(p) C/mal_block_comment.page:121(p)
 msgid ""
 "The information in this section is wrong. Mallards are dabbling ducks, not "
 "diving ducks."
 msgstr ""
+"La información en esta página es incorrecta. Los ánades reales son patos "
+"anatinos no aytinos."
 
 #: C/mal_block_comment.page:97(p)
 msgid "Use <code>comment</code> to carry out a threaded discussion:"
@@ -6332,6 +6630,8 @@ msgstr "Roberto"
 #: C/mal_block_comment.page:126(p)
 msgid "But I saw a mallard dive just the other day."
 msgstr ""
+"Pero el otro día vi ánade real aytino. (N. del T.: el texto original habla "
+"de «mallard»; «dabbling duck» y «diving duck».)"
 
 #: C/mal_block_comment.page:130(p)
 msgid ""
@@ -6347,6 +6647,9 @@ msgid ""
 "may be displayed under various circumstances, such as for writing and "
 "editing purposes."
 msgstr ""
+"En el procesado normal no se muestran los elementos <code>comment</code>. "
+"Puede que se muestren bajo diversas circunstancias, propósitos tales como "
+"escritura y edición."
 
 #: C/mal_block_comment.page:149(p)
 msgid ""
@@ -6427,6 +6730,8 @@ msgid ""
 "The <code>code</code> element may also be used in an inline context. See "
 "<link xref=\"mal_inline_code\"/> for more information."
 msgstr ""
+"El elemento <code>code</code> también se puede usar en un contexto en línea. "
+"Para obtener más información consulte la <link xref=\"mal_inline_code\"/>."
 
 #: C/mal_block_code.page:70(p)
 msgid ""
@@ -6546,6 +6851,9 @@ msgid ""
 "See <link xref=\"mal_external\"/> for more information on external-namespace "
 "attributes."
 msgstr ""
+"El elemento <code>cite</code> puede tener atributos de espacios de nombres "
+"externos. Para obtener más información acerca de atributos de espacios de "
+"nombres externos consulte la <link xref=\"mal_external\"/>."
 
 #: C/mal_block_cite.page:58(p)
 msgid ""
@@ -6553,10 +6861,15 @@ msgid ""
 "cited. It will frequently be a <sys>mailto:</sys> URL with a person's email "
 "address."
 msgstr ""
+"El atributo <code>href</code> proporciona un URL para identificar la entidad "
+"citada. Frecuentemente será un URL <sys>mailto:</sys> con la dirección de "
+"correo electrónico de una persona."
 
 #: C/mal_attr_link.page:16(desc)
 msgid "Link to other pages or documents directly from most inline elements."
 msgstr ""
+"Enlazar otras páginas o documentos directamente desde la mayoría de "
+"elementos en línea."
 
 #: C/mal_attr_link.page:19(title)
 msgid "Ubiquitous Linking"
@@ -6642,6 +6955,7 @@ msgstr ""
 #: C/its.page:299(cite)
 msgid "W3C Internationalization and Localization Markup Requirements"
 msgstr ""
+"Requerimientos de marcado para localización e internacionalización del W3C"
 
 #: C/its.page:38(p)
 msgid ""
@@ -6702,6 +7016,8 @@ msgid ""
 "Mallard allows the standard <code>xml:lang</code> attribute to be used on "
 "all elements."
 msgstr ""
+"Mallar permite el atributo estándar <code>xml:lang</code> para usarlo en "
+"todos los elementos."
 
 #: C/its.page:91(p)
 msgid ""
@@ -6769,6 +7085,8 @@ msgid ""
 "[R011] Markup should be available to support the needs of bidirectional "
 "scripts."
 msgstr ""
+"[R011] Debería estar disponible el marcado para soportar las necesidades de "
+"«scripts» bidireccionales."
 
 #: C/its.page:152(p)
 msgid ""
@@ -6787,6 +7105,8 @@ msgid ""
 "[R012] Methods must exist to allow to specify the parts of a document that "
 "are to be translated or not."
 msgstr ""
+"[R012] Deben existir métodos para permitir especificar las partes de un "
+"documento que se deben traducir y las que no."
 
 #: C/its.page:168(p)
 msgid ""
@@ -6843,6 +7163,8 @@ msgid ""
 "[R015] Provisions must be taken to ensure that attributes with translatable "
 "values do not impair the localization process."
 msgstr ""
+"[R015] Se deben tomar medidas para asegurarse de que los atributos con "
+"valores traducibles no entorpecen el proceso de localización."
 
 #: C/its.page:215(p)
 msgid "Mallard never places translatable text in attribute values."
