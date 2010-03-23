@@ -1,15 +1,15 @@
-# translation of gnome-doc-utils.HEAD.po to Basque
+# translation of eu.po to Basque
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-doc-utils.HEAD\n"
+"Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-01-07 16:47+0100\n"
-"PO-Revision-Date: 2008-01-07 00:07+0100\n"
+"PO-Revision-Date: 2010-03-23 12:56+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "MIME-Version: 1.0\n"
@@ -184,10 +184,8 @@ msgstr "<msgid>appendix.number</msgid><msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:139
-msgid ""
-"<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
-msgstr ""
-"<msgid>appendix.xref</msgid><msgstr><number/>. eranskina:  <title/></msgstr>"
+msgid "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
+msgstr "<msgid>appendix.xref</msgid><msgstr><number/>. eranskina:  <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -478,10 +476,8 @@ msgstr "<msgid>chapter.number</msgid><msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:394
-msgid ""
-"<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
-msgstr ""
-"<msgid>chapter.xref</msgid><msgstr><number/>. kapitulua: <title/></msgstr>"
+msgid "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
+msgstr "<msgid>chapter.xref</msgid><msgstr><number/>. kapitulua: <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -576,10 +572,8 @@ msgstr ""
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:477
-msgid ""
-"<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
-msgstr ""
-"<msgid>email.tooltip</msgid> <msgstr>Bidali mezua hona: <string/>.</msgstr>"
+msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
+msgstr "<msgid>email.tooltip</msgid> <msgstr>Bidali mezua hona: <string/>.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -1059,10 +1053,8 @@ msgstr "<msgid>glosssee.format</msgid> <msgstr>Ikusi <glosssee/>.</msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:896
-msgid ""
-"<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
-msgstr ""
-"<msgid>glossseealso.format</msgid> <msgstr>Ikus <glosssee/> ere.</msgstr>"
+msgid "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
+msgstr "<msgid>glossseealso.format</msgid> <msgstr>Ikus <glosssee/> ere.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1521,10 +1513,8 @@ msgstr "<msgid>refsection.number</msgid><msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1293
-msgid ""
-"<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr ""
-"<msgid>refsection.xref</msgid><msgstr><number/>. atala ― <title/></msgstr>"
+msgid "<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr "<msgid>refsection.xref</msgid><msgstr><number/>. atala ― <title/></msgstr>"
 
 #.
 #. The number formatter used for section numbers.  This can be one of
@@ -1656,10 +1646,8 @@ msgstr "<msgid>section.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1408
-msgid ""
-"<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr ""
-"<msgid>section.xref</msgid> <msgstr><number/>. atala ― <title/></msgstr>"
+msgid "<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr "<msgid>section.xref</msgid> <msgstr><number/>. atala ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1920,10 +1908,8 @@ msgstr ""
 
 #. Used as a header before a list of copyrights.
 #: ../xslt/gettext/l10n.xml.in.h:1627
-msgid ""
-"<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
-msgstr ""
-"<msgstr form='0'>Copyright-a</msgstr> <msgstr form='1'>Copyright-ak</msgstr>"
+msgid "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
+msgstr "<msgstr form='0'>Copyright-a</msgstr> <msgstr form='1'>Copyright-ak</msgstr>"
 
 #. Used as a header before a list of editors.
 #: ../xslt/gettext/l10n.xml.in.h:1629
@@ -1941,16 +1927,14 @@ msgstr ""
 
 #. Used as a header before a list of publishers.
 #: ../xslt/gettext/l10n.xml.in.h:1633
-msgid ""
-"<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
+msgid "<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
 msgstr ""
 "<msgstr form='0'>Argitaratzailea</msgstr> <msgstr form='1'>Argitaratzaileak</"
 "msgstr>"
 
 #. Used as a header before a list of translators.
 #: ../xslt/gettext/l10n.xml.in.h:1635
-msgid ""
-"<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
+msgid "<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
 msgstr ""
 "<msgstr form='0'>Itzultzailea</msgstr> <msgstr form='1'>Itzultzaileak</"
 "msgstr>"
@@ -2039,7 +2023,7 @@ msgstr "Helb. el."
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1691
 msgid "Glossary"
-msgstr "Glosategia"
+msgstr "Glosarioa"
 
 #.
 #. http://www.docbook.org/tdg/en/html/important.html
@@ -2190,3 +2174,4 @@ msgstr "default:LTR"
 #: ../xslt/gettext/l10n.xml.in.h:1796
 msgid "watermark-blockquote-201C.png"
 msgstr "watermark-blockquote-201C.png"
+
