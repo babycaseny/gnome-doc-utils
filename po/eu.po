@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008, 2009.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008, 2009, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-26 15:26+0200\n"
-"PO-Revision-Date: 2009-08-26 15:33+0200\n"
+"PO-Revision-Date: 2010-03-23 12:55+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "MIME-Version: 1.0\n"
@@ -2050,7 +2050,7 @@ msgstr "Irakurketa gehiago"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1709
 msgid "Glossary"
-msgstr "Glosategia"
+msgstr "Glosarioa"
 
 #.
 #. http://www.docbook.org/tdg/en/html/important.html
