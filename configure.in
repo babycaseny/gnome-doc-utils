@@ -1,7 +1,7 @@
 AC_INIT([gnome-doc-utils], [0.20.6],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-doc-utils])
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-bzip2])
-AC_SUBST(AM_DEFAULT_VERBOSITY,1)
+m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])],[AC_SUBST(AM_DEFAULT_VERBOSITY,1)])
 
 AC_CONFIG_MACRO_DIR([m4])
 
