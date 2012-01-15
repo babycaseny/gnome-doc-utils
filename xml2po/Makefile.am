@@ -3,7 +3,11 @@ SUBDIRS = xml2po examples
 pkgconfigdir = $(datadir)/pkgconfig
 pkgconfig_DATA = xml2po.pc
 
-man_MANS = xml2po.1
+man_MANS = 
+
+if ENABLE_DOCUMENTATION
+man_MANS += xml2po.1
+endif
 
 $(srcdir)/README: README.in
 	sed -e "s/\@VERSION\@/@VERSION@/g" < README.in > README
