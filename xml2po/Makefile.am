@@ -9,8 +9,8 @@ if ENABLE_DOCUMENTATION
 man_MANS += xml2po.1
 endif
 
-$(srcdir)/README: README.in
-	sed -e "s/\@VERSION\@/@VERSION@/g" < README.in > README
+README: README.in
+	$(AM_V_GEN)sed -e "s/\@VERSION\@/@VERSION@/g" $^ > $@ 
 
 xml2po.1: xml2po.1.xml
 	$(AM_V_GEN)xsltproc --nonet $(srcdir)/xml2po.1.xml
