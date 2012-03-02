@@ -509,7 +509,8 @@ DOC_LINGUAS = es sr uk</programlisting>Here is a brief description of what
         </listitem>
 
         <listitem>
-          <para>Add m4 to EXTRA_DIST in the top-level Makefile.am</para>
+          <para>Add <filename>m4</filename> to <varname>EXTRA_DIST</varname> 
+            in the top-level Makefile.am</para>
 
           <note>
             <para>You must remember to add <filename>m4</filename> to

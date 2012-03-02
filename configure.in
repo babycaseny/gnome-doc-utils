@@ -65,8 +65,6 @@ doc/Makefile
 doc/gnome-doc-make/Makefile
 doc/xslt/Makefile
 po/Makefile.in
-rng/Makefile
-rng/mallard/Makefile
 tools/Makefile
 tools/gnome-doc-utils.pc
 xslt/Makefile
