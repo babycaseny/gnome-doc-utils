@@ -1,3 +1,7 @@
+Changes in 0.20.8:
+------------------
+* Don't call RNG files, removed in 0.20.7
+
 Changes in 0.20.7:
 ------------------
 * Use gawk --traditional option instead of -W compat (Hib Iris)
