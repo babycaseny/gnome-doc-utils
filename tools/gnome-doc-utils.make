@@ -135,7 +135,6 @@ _xml2po_mode = $(if $(DOC_ID),mallard,docbook)
 
 _db2html ?= `$(PKG_CONFIG) --variable db2html gnome-doc-utils`
 _db2omf  ?= `$(PKG_CONFIG) --variable db2omf gnome-doc-utils`
-_malrng  ?= `$(PKG_CONFIG) --variable malrng gnome-doc-utils`
 _chunks  ?= `$(PKG_CONFIG) --variable xmldir gnome-doc-utils`/gnome/xslt/docbook/utils/chunks.xsl
 _credits ?= `$(PKG_CONFIG) --variable xmldir gnome-doc-utils`/gnome/xslt/docbook/utils/credits.xsl
 _ids ?= $(shell $(PKG_CONFIG) --variable xmldir gnome-doc-utils)/gnome/xslt/docbook/utils/ids.xsl
@@ -545,8 +544,8 @@ check-doc-pages: $(_DOC_C_PAGES) $(_DOC_LC_PAGES)
 	    xmlpath="$$lc:$(srcdir)/$$lc"; \
 	  fi; \
 	  for page in $(DOC_PAGES); do \
-	    echo "xmllint --noout --noent --path $$xmlpath --xinclude --relaxng $(_malrng) $$d$$lc/$$page"; \
-	    xmllint --noout --noent --path "$$xmlpath" --xinclude --relaxng "$(_malrng)" "$$d$$lc/$$page"; \
+	    echo "xmllint --noout --noent --path $$xmlpath --xinclude $$d$$lc/$$page"; \
+	    xmllint --noout --noent --path "$$xmlpath" --xinclude "$$d$$lc/$$page"; \
 	  done; \
 	done
 
