@@ -59,6 +59,7 @@ data/icons/hicolor/48x48/Makefile
 data/icons/hicolor/48x48/status/Makefile
 data/icons/hicolor/scalable/Makefile
 data/icons/hicolor/scalable/status/Makefile
+data/rng/Makefile
 data/templates/Makefile
 data/watermarks/Makefile
 doc/Makefile

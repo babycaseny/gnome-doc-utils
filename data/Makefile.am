@@ -1,1 +1,1 @@
-SUBDIRS = icons templates watermarks
+SUBDIRS = icons templates watermarks rng
