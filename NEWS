@@ -1,3 +1,9 @@
+Changes in 0.20.9:
+------------------
+* Temporarily adding RNG files back for compatibility. Now that the
+  RNG files are no longer called (as of 0.20.8), the RNG files will
+  be removed again after a transition period.
+
 Changes in 0.20.8:
 ------------------
 * Don't call RNG files, removed in 0.20.7
