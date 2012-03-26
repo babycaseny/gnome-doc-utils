@@ -1,3 +1,9 @@
+Changes in 0.20.10:
+-------------------
+* Fixed problem with dist and install with too many files
+* Updated translations:
+  km    (Morn Met)
+
 Changes in 0.20.9:
 ------------------
 * Temporarily adding RNG files back for compatibility. Now that the
