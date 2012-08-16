@@ -3,22 +3,24 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
 # Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
-# Sandeep Shedmake <sshedmak@redhat.com>, 2009.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2008.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-doc-utils&component=general\n"
-"POT-Creation-Date: 2009-07-26 02:59+0000\n"
-"PO-Revision-Date: 2009-09-11 12:34+0530\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"doc-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-10-10 17:26+0000\n"
+"PO-Revision-Date: 2012-08-16 11:04+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <fedora-trans-mr@redhat.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
+"Language: mr\n"
 
 #.
 #. This is used as a list item seperator for inline lists of exactly two
@@ -186,8 +188,10 @@ msgstr "<msgid>appendix.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:139
-msgid "<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
-msgstr "<msgid>appendix.xref</msgid> <msgstr>परिशिष्ट <number/> ― <title/></msgstr>"
+msgid ""
+"<msgid>appendix.xref</msgid> <msgstr>Appendix <number/> ― <title/></msgstr>"
+msgstr ""
+"<msgid>appendix.xref</msgid> <msgstr>परिशिष्ट <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -314,7 +318,7 @@ msgstr "<msgid>bibliolabel.format</msgid> <msgstr>[<bibliolabel/>]</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:250
 msgid "<msgid>book.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>book.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>book.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -365,7 +369,7 @@ msgstr "<msgid>book.xref</msgid> <msgstr><title/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:295
 msgid "<msgid>chapter.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>chapter.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>chapter.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -478,8 +482,10 @@ msgstr "<msgid>chapter.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:394
-msgid "<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
-msgstr "<msgid>chapter.xref</msgid> <msgstr>प्रकरण <number/> ― <title/></msgstr>"
+msgid ""
+"<msgid>chapter.xref</msgid> <msgstr>Chapter <number/> ― <title/></msgstr>"
+msgstr ""
+"<msgid>chapter.xref</msgid> <msgstr>प्रकरण <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -574,8 +580,10 @@ msgstr ""
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:477
-msgid "<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
-msgstr "<msgid>email.tooltip</msgid> <msgstr>‘<string/>’ ला ईमेल पाठवली.</msgstr>"
+msgid ""
+"<msgid>email.tooltip</msgid> <msgstr>Send email to ‘<string/>’.</msgstr>"
+msgstr ""
+"<msgid>email.tooltip</msgid> <msgstr>‘<string/>’ ला ईमेल पाठवली.</msgstr>"
 
 #.
 #. The number formatter used for example numbers.  This can be one of
@@ -593,7 +601,7 @@ msgstr "<msgid>email.tooltip</msgid> <msgstr>‘<string/>’ ला ईमेल
 #.
 #: ../xslt/gettext/l10n.xml.in.h:492
 msgid "<msgid>example.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>example.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>example.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -725,7 +733,7 @@ msgstr "<msgid>example.xref</msgid> <msgstr>उदाहरण <number/></msgstr
 #.
 #: ../xslt/gettext/l10n.xml.in.h:606
 msgid "<msgid>figure.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>figure.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>figure.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1055,8 +1063,10 @@ msgstr "<msgid>glosssee.format</msgid> <msgstr>पहा <glosssee/>.</msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:896
-msgid "<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
-msgstr "<msgid>glossseealso.format</msgid> <msgstr>हेही पहा <glosssee/>.</msgstr>"
+msgid ""
+"<msgid>glossseealso.format</msgid> <msgstr>See also <glosssee/>.</msgstr>"
+msgstr ""
+"<msgid>glossseealso.format</msgid> <msgstr>हेही पहा <glosssee/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1237,7 +1247,7 @@ msgstr "<msgid>preface.xref</msgid> <msgstr><title/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1055
 msgid "<msgid>question.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>question.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>question.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1400,7 +1410,7 @@ msgstr "<msgid>refentry.xref</msgid> <msgstr><title/></msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1193
 msgid "<msgid>refsection.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>refsection.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>refsection.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1514,8 +1524,10 @@ msgstr "<msgid>refsection.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1293
-msgid "<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr "<msgid>refsection.xref</msgid> <msgstr>विभाग <number/> ― <title/></msgstr>"
+msgid ""
+"<msgid>refsection.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr ""
+"<msgid>refsection.xref</msgid> <msgstr>विभाग <number/> ― <title/></msgstr>"
 
 #.
 #. The number formatter used for section numbers.  This can be one of
@@ -1533,7 +1545,7 @@ msgstr "<msgid>refsection.xref</msgid> <msgstr>विभाग <number/> ― <ti
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1308
 msgid "<msgid>section.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>section.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>section.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1647,8 +1659,10 @@ msgstr "<msgid>section.number</msgid> <msgstr><parent/>.<digit/></msgstr>"
 #. to mark text as italic, bold, and monospace.
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1408
-msgid "<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
-msgstr "<msgid>section.xref</msgid> <msgstr>विभाग <number/> ― <title/></msgstr>"
+msgid ""
+"<msgid>section.xref</msgid> <msgstr>Section <number/> ― <title/></msgstr>"
+msgstr ""
+"<msgid>section.xref</msgid> <msgstr>विभाग <number/> ― <title/></msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1679,7 +1693,8 @@ msgstr "<msgid>section.xref</msgid> <msgstr>विभाग <number/> ― <title
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1436
 msgid "<msgid>seealsoie.format</msgid> <msgstr>See also <seeie/>.</msgstr>"
-msgstr "<msgid>seealsoie.format</msgid> <msgstr>हे सुध्दा पहा <seeie/>.</msgstr>"
+msgstr ""
+"<msgid>seealsoie.format</msgid> <msgstr>हे सुध्दा पहा <seeie/>.</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1777,7 +1792,7 @@ msgstr "<msgid>synopfragment.label</msgid> <msgstr>(<number/>)</msgstr>"
 #.
 #: ../xslt/gettext/l10n.xml.in.h:1522
 msgid "<msgid>table.digit</msgid> <msgstr>1</msgstr>"
-msgstr "<msgid>table.digit</msgid> <msgstr>१</msgstr>"
+msgstr "<msgid>table.digit</msgid> <msgstr>1</msgstr>"
 
 #.
 #. This is a special format message.  Please read the full translator
@@ -1907,8 +1922,10 @@ msgstr "<msgstr form='0'>सहाय्यक</msgstr> <msgstr form='1'>सह�
 
 #. Used as a header before a list of copyrights.
 #: ../xslt/gettext/l10n.xml.in.h:1627
-msgid "<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
-msgstr "<msgstr form='0'>कॉपीराइट</msgstr> <msgstr form='1'>कॉपीराइट्स</msgstr>"
+msgid ""
+"<msgstr form='0'>Copyright</msgstr> <msgstr form='1'>Copyrights</msgstr>"
+msgstr ""
+"<msgstr form='0'>कॉपीराइट</msgstr> <msgstr form='1'>कॉपीराइट्स</msgstr>"
 
 #. Used as a header before a list of editors.
 #: ../xslt/gettext/l10n.xml.in.h:1629
@@ -1920,16 +1937,19 @@ msgstr "<msgstr form='0'>संपादक</msgstr> <msgstr form='1'>संप�
 msgid ""
 "<msgstr form='0'>Other Contributor</msgstr> <msgstr form='1'>Other "
 "Contributors</msgstr>"
-msgstr "<msgstr form='0'>इतर सहाय्यक</msgstr> <msgstr form='1'>इतर  सहाय्यक</msgstr>"
+msgstr ""
+"<msgstr form='0'>इतर सहाय्यक</msgstr> <msgstr form='1'>इतर  सहाय्यक</msgstr>"
 
 #. Used as a header before a list of publishers.
 #: ../xslt/gettext/l10n.xml.in.h:1633
-msgid "<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
+msgid ""
+"<msgstr form='0'>Publisher</msgstr> <msgstr form='1'>Publishers</msgstr>"
 msgstr "<msgstr form='0'>प्रकाशक</msgstr> <msgstr form='1'>प्रकाशक</msgstr>"
 
 #. Used as a header before a list of translators.
 #: ../xslt/gettext/l10n.xml.in.h:1635
-msgid "<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
+msgid ""
+"<msgstr form='0'>Translator</msgstr> <msgstr form='1'>Translators</msgstr>"
 msgstr "<msgstr form='0'>अनुवादक</msgstr> <msgstr form='1'>अनुवादक</msgstr>"
 
 #.
@@ -1998,7 +2018,7 @@ msgid "Dedication"
 msgstr "समर्पण"
 
 #.
-#. This is used as a descrpition for the status of the document.
+#. This is used as a description for the status of the document.
 #. This will not be visibile to the users.
 #.
 #. Draft: the authors have written all the content, but they still need
@@ -2022,7 +2042,7 @@ msgid "Email"
 msgstr "ईमेल"
 
 #.
-#. This is used as a descrpition for the status of the document.
+#. This is used as a description for the status of the document.
 #. This will not be visibile to the users.
 #.
 #. Final: a senior member of the documentation team has reviewd the
@@ -2054,7 +2074,7 @@ msgid "Important"
 msgstr "महत्वाचे"
 
 #.
-#. This is used as a descrpition for the status of the document.
+#. This is used as a description for the status of the document.
 #. This will not be visibile to the users.
 #.
 #. Incomplete: the document has the basic structure in place, but the
@@ -2093,11 +2113,16 @@ msgstr "विषयी अधिक"
 msgid "Name"
 msgstr "नाव"
 
+#. Used as link to the next page in a series.
+#: ../xslt/gettext/l10n.xml.in.h:1741
+msgid "Next"
+msgstr "पुढे"
+
 #.
 #. http://www.docbook.org/tdg/en/html/note.html
 #. This is used as a default title for note elements.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1744
+#: ../xslt/gettext/l10n.xml.in.h:1746
 msgid "Note"
 msgstr "टीप"
 
@@ -2105,9 +2130,14 @@ msgstr "टीप"
 #. http://www.docbook.org/tdg/en/html/preface.html
 #. This is used as a default title for preface elements.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1749
+#: ../xslt/gettext/l10n.xml.in.h:1751
 msgid "Preface"
 msgstr "प्रस्तावना"
+
+#. Used as link to the previous page in a series.
+#: ../xslt/gettext/l10n.xml.in.h:1753
+msgid "Previous"
+msgstr "मागे"
 
 #.
 #. http://www.docbook.org/tdg/en/html/qandaentry.html
@@ -2118,17 +2148,17 @@ msgstr "प्रस्तावना"
 #. the labelling style for a qandaset.  If the labelling style is set
 #. to 'qanda', this string will be used to label questions.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1759
+#: ../xslt/gettext/l10n.xml.in.h:1763
 msgid "Q:&#x2003;"
 msgstr "Q:&#x2003;"
 
 #.
-#. This is used as a descrpition for the status of the document.
+#. This is used as a description for the status of the document.
 #. This will not be visibile to the users.
 #.
 #. Review: the authors consider the document complete.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1766
+#: ../xslt/gettext/l10n.xml.in.h:1770
 msgid "Ready for review"
 msgstr "पूनरावलोकन करीता सज्ज"
 
@@ -2136,7 +2166,7 @@ msgstr "पूनरावलोकन करीता सज्ज"
 #. http://www.docbook.org/tdg/en/html/revhistory.html
 #. This is used as a header before the revision history.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1771
+#: ../xslt/gettext/l10n.xml.in.h:1775
 msgid "Revision History"
 msgstr "उजळणी इतिहास"
 
@@ -2144,23 +2174,23 @@ msgstr "उजळणी इतिहास"
 #. Used for the <see> element.
 #. FIXME: this should be a format string.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1776
+#: ../xslt/gettext/l10n.xml.in.h:1780
 msgid "See"
 msgstr "पहा"
 
 #. Automatic see also section and links
-#: ../xslt/gettext/l10n.xml.in.h:1778
+#: ../xslt/gettext/l10n.xml.in.h:1782
 msgid "See Also"
 msgstr "हेही पहा"
 
 #.
-#. This is used as a descrpition for the status of the document.
+#. This is used as a description for the status of the document.
 #. This will not be visibile to the users.
 #.
 #. Stub: the document has little or basic content, it may have been
 #. created by developers in order to have it included in the build.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1786
+#: ../xslt/gettext/l10n.xml.in.h:1790
 msgid "Stub"
 msgstr "स्टब"
 
@@ -2168,7 +2198,7 @@ msgstr "स्टब"
 #. http://www.docbook.org/tdg/en/html/refsynopsisdiv.html
 #. This is used as the default title for refsynopsisdiv elements.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1791
+#: ../xslt/gettext/l10n.xml.in.h:1795
 msgid "Synopsis"
 msgstr "सारांश"
 
@@ -2176,7 +2206,7 @@ msgstr "सारांश"
 #. http://www.docbook.org/tdg/en/html/tip.html
 #. This is used as a default title for tip elements.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1796
+#: ../xslt/gettext/l10n.xml.in.h:1800
 msgid "Tip"
 msgstr "संकेत"
 
@@ -2184,7 +2214,7 @@ msgstr "संकेत"
 #. http://www.docbook.org/tdg/en/html/warning.html
 #. This is used as a default title for warning elements.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1801
+#: ../xslt/gettext/l10n.xml.in.h:1805
 msgid "Warning"
 msgstr "सुचना"
 
@@ -2194,7 +2224,7 @@ msgstr "सुचना"
 #. translate it to "predefinito:LTR", if it isn't default:LTR
 #. or default:RTL it will not work
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1808
+#: ../xslt/gettext/l10n.xml.in.h:1812
 msgid "default:LTR"
 msgstr "default:LTR"
 
@@ -2225,7 +2255,7 @@ msgstr "default:LTR"
 #. once found inside Yelp.  The watermark functionality has been moved to
 #. gnome-doc-utils.
 #.
-#: ../xslt/gettext/l10n.xml.in.h:1836
+#: ../xslt/gettext/l10n.xml.in.h:1840
 msgid "watermark-blockquote-201C.png"
 msgstr "watermark-blockquote-201C.png"
 
