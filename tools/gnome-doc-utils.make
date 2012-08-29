@@ -640,8 +640,8 @@ install-doc-figs:
 	    fi; \
 	    figbase=`echo $$fig | sed -e 's/^.*\///'`; \
 	    if $$figsymlink; then \
-	      echo "cd $$figdir && $(LN_S) -f ../../C/$$fig $$figbase"; \
-	      ( cd "$$figdir" && $(LN_S) -f "../../C/$$fig" "$$figbase" ); \
+	      echo "cd $$figdir && $(LN_S) -f $(HELP_DIR)/$(_doc_install_dir)/C/$$fig $$figbase"; \
+	      ( cd "$$figdir" && $(LN_S) -f "$(HELP_DIR)/$(_doc_install_dir)/C/$$fig" "$$figbase" ); \
 	    else \
 	      echo "$(INSTALL_DATA) $$figfile $$figdir$$figbase"; \
 	      $(INSTALL_DATA) "$$figfile" "$$figdir$$figbase"; \
